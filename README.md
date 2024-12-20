@@ -1,32 +1,29 @@
-# Haarcascade Detection
+# Face Detection using Haar Cascade
 
-Detect faces, eyes, cars, clocks, and full bodies using OpenCV Haar Cascade Classifiers.
+Code for detecting faces, eyes, cars, clocks, and full bodies using Haar Cascade Classifiers with OpenCV. This repository demonstrates how to leverage pre-trained classifiers for object detection in images.
+
+---
+
+## What is Haar Cascade?
+Haar Cascade is a machine learning-based approach for object detection proposed by Paul Viola and Michael Jones. It:
+- Utilizes features resembling Haar wavelets.
+- Employs a cascade of classifiers trained to detect objects efficiently.
+- Works well for structured and predictable object shapes, such as faces.
+
+### Advantages:
+- Fast and efficient for real-time applications.
+- Lightweight and easy to use.
+- No need for extensive computing resources.
+
+---
 
 ## Features
-- Face, eye, car, clock, and full-body detection.
-- Preprocessing: resize, grayscale, and Gaussian blur.
-- Adjustable parameters to reduce false positives.
+- **Face Detection**: Detects faces in images.
+- **Eye Detection**: Identifies eyes within face regions.
+- **Car, Clock, and Body Detection**: Recognizes these objects using different Haar classifiers.
+- **Preprocessing**: Resize, grayscale conversion, and parameter tuning.
+- **Parameter Adjustments**: Includes `scaleFactor`, `minNeighbors`, and `minSize` for optimizing detection.
 
-## Requirements
-- Python 3.x
-- OpenCV
+---
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4e9f3d&height=120&section=footer"/>
 
-Install dependencies:
-```bash
-pip install opencv-python opencv-python-headless
-```
-
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/haarcascade_detection.git
-   cd haarcascade_detection
-   ```
-2. Download Haar Cascade XML files from [OpenCV](https://github.com/opencv/opencv/tree/master/data/haarcascades).
-3. Run the script:
-   ```bash
-   python detecção_haarcascade.py
-   ```
-
-## License
-MIT License
