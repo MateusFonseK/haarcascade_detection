@@ -1,4 +1,4 @@
-# Face Detection using Haar Cascade
+# Face, Eye, Car, Clock, and Body Detection using Haar Cascade
 
 Code for detecting faces, eyes, cars, clocks, and full bodies using Haar Cascade Classifiers with OpenCV. This repository demonstrates how to leverage pre-trained classifiers for object detection in images.
 
